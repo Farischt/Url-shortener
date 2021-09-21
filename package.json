@@ -1,0 +1,13 @@
+{
+    "name": "url-shortener",
+    "version": "1.0.0",
+    "description": "A basic url shortener application using react & node.js",
+    "author": "Faris Chtatou",
+    "scripts": {
+        "dev": "concurrently \"cd client && npm start\"  \"cd server && npm run dev\"",
+        "start": "concurrently \"cd client && npm start\"  \"cd server && npm start\""
+    },
+    "devDependencies": {
+        "concurrently":"^6.2.1"
+    }
+}
